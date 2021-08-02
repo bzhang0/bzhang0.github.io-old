@@ -8,3 +8,20 @@ main > div {
   min-width: calc(48rem);
   max-width: calc(48rem);
 }
+
+#project-list > section {
+  border: 1pt solid rgb(173, 188, 194);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#project-list > section:hover {
+  transition-duration: 0.3s;
+
+  background-color: rgb(36, 36, 36);
+}
+
+section > h2 {
+  margin-bottom: 0.25rem;
+}
