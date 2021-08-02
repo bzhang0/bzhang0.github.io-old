@@ -9,6 +9,9 @@ body {
   font-weight: 400;
   background-color: black;
   color: white;
+}
+
+body, p {
   margin: 0px;
 }
 
@@ -17,7 +20,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - (16px + 38px));
+  height: calc(100vh - 100px);
 }
 
 h1 {
@@ -82,7 +85,14 @@ a:link, a:visited{
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
   text-align: center;
   font-size: 9pt;
-  padding-bottom: 10px;
+}
+
+#credit {
+  margin-top: 20px;
 }
