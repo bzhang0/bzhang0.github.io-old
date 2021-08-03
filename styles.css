@@ -7,6 +7,10 @@
   light theme: 87, 109, 117
 */
 
+html {
+  min-height: 100vh;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -29,7 +33,7 @@ header {
   margin: 2rem 1rem 2rem 1rem;
 }
 
-main {
+main > div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -77,13 +81,13 @@ a:hover {
   text-decoration: underline;
 }
 
-main > div {
+main > div > div {
   min-width: 22.5rem;
   max-width: 22.5rem;
   height: 22.5rem;
 
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .title-img img {
@@ -118,4 +122,9 @@ footer {
 
 li {
   display: inline-block;
+}
+
+#miscellaneous {
+  min-width: calc(48rem);
+  max-width: calc(48rem);
 }
