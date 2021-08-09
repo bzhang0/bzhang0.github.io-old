@@ -8,7 +8,6 @@
   // https://www.timeapi.io/api/Time/current/zone?timeZone=America/Los_Angeles
 
 
-
   window.addEventListener("load", init);
 
   function init() {
