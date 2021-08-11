@@ -90,6 +90,10 @@ main > div > div {
   padding-right: 1.5rem;
 }
 
+#miscellaneous {
+  height: 10rem;
+}
+
 .title-img img {
   border-radius: 50%;
   width: 100%;
@@ -105,15 +109,9 @@ main > div > div {
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
   font-size: 9pt;
-
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  text-align: center;
 }
 
 .credit {
